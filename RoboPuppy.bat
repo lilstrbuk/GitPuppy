@@ -37,7 +37,7 @@ if %attempts% GTR 2 (
     goto afterKuka
 )
 
-rem Mapping Z: Drive
+echo Mapping Z: Drive
 net use Z: %share1% /user:%username% %password%
 if errorlevel 1 (
     echo Failed to map primary robot with credentials. Checking if drive Z: is already mounted...
@@ -54,7 +54,7 @@ if errorlevel 1 (
     )
 )
 
-rem Mapping Y: Drive
+echo Mapping Y: Drive
 net use Y: %share2% /user:%username% %password%
 if errorlevel 1 (
     echo Failed to map secondary robot with credentials. Checking if drive Y: is already mounted...
