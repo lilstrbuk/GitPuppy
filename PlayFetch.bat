@@ -70,7 +70,7 @@ if /i "%day%"=="Tue" (
 set "sub_folder=%sub_folder_base%"
 set count=1
 
-:: Check if the subfolder already exists, and if it does, create a new one with a unique name
+:: Check if the subfolder already exists, and if it does, create a new one with unique number
 :check_folder
 if exist "%sub_folder%" (
     set /a count+=1
@@ -118,10 +118,14 @@ if errorlevel 0 (
 )
 
 :: If Tuesday or Saturaday run Litter.bat and RoboPuppy.bat to get more files for "Big" backup
-if /i "%day%"=="Tue" || /i "%day%"=="Sat" (
+if /i "%day%"=="Tue" (
     call "%mainFolder%\Litter.bat" "%sub_folder%"
     call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
+) else if /i "%day%"=="Sat" (
+    call "%mainFolder%\Litter.bat" "%sub_folder%"
+	call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
 )
+
 :: Call the PowerShell script using PowerShell 7
 "C:\Puppy\PowerShell-7\pwsh.exe" -ExecutionPolicy Bypass -File "C:\Puppy\SharingIsCaring.ps1" -PlantName "%PlantName%" -SharePointSiteURL "%SharePointSiteURL%" -SharePointFolderPath "%SharePointFolderPath%" -FolderToUpload "%sub_folder%"
 
