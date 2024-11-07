@@ -23,7 +23,6 @@ if not exist "%mainFolder%\doggo.yaml" (
     set "yamlFile=doggo.yaml"
 )
 
-
 :: Read and parse the YAML file
 for /f "usebackq tokens=1* delims=:" %%A in (%yamlFile%) do (
     set "key=%%A"
@@ -51,10 +50,23 @@ for %%v in (%varNames%) do (
     )
 )
 
-:: Get the date in MMDDYY format and set subfolder name
+:: Get the date in MMDDYY format and set subfolder name 
 for /f "tokens=2 delims==." %%i in ('wmic os get localdatetime /value') do set "datetime=%%i"
 set "date_format=%datetime:~4,2%%datetime:~6,2%%datetime:~2,2%"
-set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Big Backup"
+
+:: Get the day of the week (e.g., Mon, Tue, Wed, etc.)
+:: Used for naming and calling big backup subroutines
+set day=%date:~0,3%
+
+:: Set subfolder name, add "Big" before "Backup" if it's Tuesday or Wednesday
+if /i "%day%"=="Tue" (
+    set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Big Backup"
+) else if /i "%day%"=="Wed" (
+    set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Big Backup"
+) else (
+    set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Backup"
+)
+
 set "sub_folder=%sub_folder_base%"
 set count=1
 
@@ -105,16 +117,11 @@ if errorlevel 0 (
     echo Failed to copy users.ouf.
 )
 
-set day=%date:~0,3%
-
-if /i "%day%"=="Thu" (
+:: If Tuesday or Saturaday run Litter.bat and RoboPuppy.bat to get more files for "Big" backup
+if /i "%day%"=="Tue" || /i "%day%"=="Sat" (
     call "%mainFolder%\Litter.bat" "%sub_folder%"
     call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
-) else if /i "%day%"=="Sat" (
-    call "%mainFolder%\Litter.bat" "%sub_folder%"
-	call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
 )
-
 :: Call the PowerShell script using PowerShell 7
 "C:\Puppy\PowerShell-7\pwsh.exe" -ExecutionPolicy Bypass -File "C:\Puppy\SharingIsCaring.ps1" -PlantName "%PlantName%" -SharePointSiteURL "%SharePointSiteURL%" -SharePointFolderPath "%SharePointFolderPath%" -FolderToUpload "%sub_folder%"
 
