@@ -37,23 +37,37 @@ if %attempts% GTR 2 (
     goto afterKuka
 )
 
+rem Mapping Z: Drive
 net use Z: %share1% /user:%username% %password%
 if errorlevel 1 (
-    echo Failed to map primary robot with credentials. Attempting without credentials...
-    net use Z: %share1%
-    if errorlevel 1 (
-        echo Error: Failed to map primary robot without credentials.
-        goto kukaerrorHandler
+    echo Failed to map primary robot with credentials. Checking if drive Z: is already mounted...
+    
+    if exist Z:\ (
+        echo Drive Z: is already mounted.
+    ) else (
+        echo Attempting to map drive Z: without credentials...
+        net use Z: %share1%
+        if errorlevel 1 (
+            echo Error: Failed to map primary robot without credentials.
+            goto kukaerrorHandler
+        )
     )
 )
 
+rem Mapping Y: Drive
 net use Y: %share2% /user:%username% %password%
 if errorlevel 1 (
-    echo Failed to map secondary robot with credentials. Attempting without credentials...
-    net use Y: %share2%
-    if errorlevel 1 (
-        echo Error: Failed to map secondary robot without credentials.
-        goto kukaerrorHandler
+    echo Failed to map secondary robot with credentials. Checking if drive Y: is already mounted...
+    
+    if exist Y:\ (
+        echo Drive Y: is already mounted.
+    ) else (
+        echo Attempting to map drive Y: without credentials...
+        net use Y: %share2%
+        if errorlevel 1 (
+            echo Error: Failed to map secondary robot without credentials.
+            goto kukaerrorHandler
+        )
     )
 )
 

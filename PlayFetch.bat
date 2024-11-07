@@ -107,12 +107,12 @@ if errorlevel 0 (
 
 set day=%date:~0,3%
 
-if /i "%day%"=="Wed" (
-    call "%mainFolder%\Litter.bat"
-    call "%mainFolder%\RoboPuppy.bat"
+if /i "%day%"=="Thu" (
+    call "%mainFolder%\Litter.bat" "%sub_folder%"
+    call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
 ) else if /i "%day%"=="Sat" (
-    call "%mainFolder%\Litter.bat"
-    call "%mainFolder%\RoboPuppy.bat"
+    call "%mainFolder%\Litter.bat" "%sub_folder%"
+	call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
 )
 
 :: Call the PowerShell script using PowerShell 7
