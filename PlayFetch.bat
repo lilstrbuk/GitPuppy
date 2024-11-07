@@ -11,7 +11,7 @@ if errorlevel 1 (
     echo Error: PreflightCheck.bat failed.
     exit /b 1
 ) else (
-    echo Set up passed, maybe, the error handling isn't perfect.
+    echo Set up passed.
     )
 
 :: Check if the doggo.yaml exists, if not, create it by calling CreateConfig.bat
@@ -20,10 +20,9 @@ if not exist "%mainFolder%\doggo.yaml" (
     exit /b 1
 ) else (
     echo Config file exists.
+    set "yamlFile=doggo.yaml"
 )
 
-:: Path to the YAML file
-set "yamlFile=doggo.yaml"
 
 :: Read and parse the YAML file
 for /f "usebackq tokens=1* delims=:" %%A in (%yamlFile%) do (
@@ -40,7 +39,7 @@ for /f "usebackq tokens=1* delims=:" %%A in (%yamlFile%) do (
     set "!key!=!value!"
 )
 
-:: Verify all entries are found and create an array of variables
+:: Verify all entries are found and create an array
 set varNames=PlantName SharePointSiteURL SharePointFolderPath
 
 :: Loop through each variable name and check if it's defined
@@ -59,8 +58,8 @@ set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Big Backup
 set "sub_folder=%sub_folder_base%"
 set count=1
 
-:check_folder
 :: Check if the subfolder already exists, and if it does, create a new one with a unique name
+:check_folder
 if exist "%sub_folder%" (
     set /a count+=1
     set "sub_folder=%sub_folder_base% %count%"

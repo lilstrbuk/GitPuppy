@@ -1,4 +1,5 @@
 @echo off
+
 :: Check if the PowerShell 7 executable exists
 IF EXIST "C:\Puppy\PowerShell-7\pwsh.exe" (
     echo PowerShell 7 is already unzipped.
