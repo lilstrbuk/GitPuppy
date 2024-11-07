@@ -126,7 +126,7 @@ if /i "%day%"=="Tue" (
 	call "%mainFolder%\RoboPuppy.bat" "%sub_folder%"
 )
 
-:: Call the PowerShell script using PowerShell 7
+:: Call the script to upload to SharePoint
 "C:\Puppy\PowerShell-7\pwsh.exe" -ExecutionPolicy Bypass -File "C:\Puppy\SharingIsCaring.ps1" -PlantName "%PlantName%" -SharePointSiteURL "%SharePointSiteURL%" -SharePointFolderPath "%SharePointFolderPath%" -FolderToUpload "%sub_folder%"
 
 :: Check if the script returned an error
