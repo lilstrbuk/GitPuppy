@@ -99,6 +99,7 @@ if errorlevel 0 (
     echo cal_bases_and_tools.src copied successfully from primary controller.
 ) else (
     echo Failed to copy cal_bases_and_tools.src from primary controller.
+)
 
 :: SECONDARY Copy robo cal files from controller to destination
 copy "Y:\Program\Machine Specific\cal_bases_and_tools.src" "%sub_folder%\robo\secondary\cal_bases_and_tools.src"
