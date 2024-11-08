@@ -27,6 +27,10 @@ This suite of scripts is used to automate the backup process of the Puppy system
 
 ### Big Backup (Tuesday and Saturday)
 
+- **knife\_counts.olog** from `C:\OmniSharp\Runtime Data\LOGS`
+- **knivesperhour.csv** from `C:\OmniSharp\Runtime Data`
+- **Grind\_Everything.txt** from `C:\OmniSharp`
+- **users.ouf** from `C:\OmniSharp`
 - **Config Backups** (most recent 10 files) from `C:\OmniSharp\Config Backups`
 - **Gripper Cal Force Data\Fail** (most recent 10 files) from `C:\OmniSharp\DATA\Gripper Cal Force Data\Fail`
 - **Gripper Cal Force Data\Pass** (most recent 10 files) from `C:\OmniSharp\DATA\Gripper Cal Force Data\Pass`
@@ -39,20 +43,17 @@ This suite of scripts is used to automate the backup process of the Puppy system
 
 ### Prerequisites
 
-- Windows OS with PowerShell installed.
+- Windows.
 - PowerShell 7 (`pwsh.exe`) is required to run some PowerShell scripts.
 - Proper network access to robot controllers.
-- Access credentials for network drives and SharePoint.
-- The following folders should exist before running the script:
-  - `C:\Puppy`
-  - `C:\OmniSharp`
+- Access credentials for robots and SharePoint.
 
 ### Running the Backup Process
 
-1. **PlayFetch.bat** It handles the following tasks:
+1. **PlayFetch.bat** Handles the following tasks:
    - Calls **PreflightCheck.bat** to ensure system readiness.
    - Checks for the existence of the `doggo.yaml` configuration file, and creates it using **CreateConfig.bat** if it's missing.
-   - Reads values from `doggo.yaml` to set up SharePoint details.
+   - Reads values from `doggo.yaml` to set up plant name and SharePoint destination.
    - Generates a unique folder for the current backup.
    - Copies various log and configuration files into the newly created backup folder.
    - If it's Tuesday or Saturday, calls **Litter.bat** and **RoboPuppy.bat** for additional files.
