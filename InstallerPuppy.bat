@@ -39,9 +39,6 @@ if exist "C:\Puppy\doggo.yaml" (
 :: Call PreflightCheck.bat and check for errors
 call "C:\Puppy\PreflightCheck.bat"
 
-:: Call BigStick to log test run
-call "C:\Puppy\BigStick.bat"
-
 :: Create Small Backup task to run everyday and terminate after 8 hours
 schtasks /create /tn "\Puppy\Puppy Backup" /tr "cmd.exe /c cd /d C:\Puppy && C:\Puppy\BigStick.bat" /sc daily /st 02:33 /du 08:00 /ri 0 /f /rl LIMITED /it
 
