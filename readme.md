@@ -18,10 +18,10 @@ This suite of scripts is used to automate the backup process of the Omnisharp KS
 
 ### Prerequisites
 
-- Windows OS with PowerShell installed.
+- Windows OS.
 - PowerShell 7 (`pwsh.exe`) is required to run some PowerShell scripts.
 - Proper network access to robot controllers.
-- Access credentials for network drives and SharePoint.
+- SharePoint certificate.
 - The following folders should exist before running the script:
   - `C:\Puppy`
   - `C:\OmniSharp`
@@ -39,9 +39,9 @@ This suite of scripts is used to automate the backup process of the Omnisharp KS
 
 ### Script Details
 
-#### 1. BackupScript.bat
+#### 1. PlayFetch.bat
 
-- Calls **PreflightCheck.bat** to verify system prerequisites.
+- Calls **PreflightCheck.bat** to verify prerequisites.
 - Verifies if the `doggo.yaml` configuration file exists. If not, exits with an error.
 - Reads and parses `doggo.yaml` to get configuration values.
 - Sets up backup subfolders based on the day of the week:
