@@ -90,28 +90,23 @@ To automate the backups, use Windows Task Scheduler to schedule **BackupScript.b
 
 ## Troubleshooting
 
-- If **PreflightCheck.bat** fails, verify that all system requirements are met.
+- If **PreflightCheck.bat** fails, verify that all Puppy files are present.
 - Ensure proper network connectivity for mapping drives to robot controllers.
 - If **doggo.yaml** is missing, run **CreateConfig.bat** to generate the configuration.
-- Make sure PowerShell scripts have appropriate permissions.
 
 ## Example
 
 Here is how to run the backup script manually:
 
 ```sh
-BackupScript.bat
+PlayFetch.bat
 ```
 
 Make sure to adjust configurations as needed and have network access to all required systems before running.
 
-## License
-
-The content of this project is licensed under the MIT License. For more details, refer to the LICENSE file.
-
 ## Author
 
-**John Starbuck**
+**Luke Starbuck**
 
 For any queries or support, feel free to reach out.
 
