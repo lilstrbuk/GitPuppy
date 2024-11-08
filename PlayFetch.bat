@@ -61,7 +61,7 @@ set day=%date:~0,3%
 :: Set subfolder name, add "Big" before "Backup" if it's Tuesday or Wednesday
 if /i "%day%"=="Tue" (
     set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Big Backup"
-) else if /i "%day%"=="Wed" (
+) else if /i "%day%"=="Sat" (
     set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Big Backup"
 ) else (
     set "sub_folder_base=%mainFolder%\Retrieved\%date_format% %PlantName% Backup"

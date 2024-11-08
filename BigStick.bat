@@ -1,6 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: Change to the desired directory
+cd /d C:\Puppy
+
 :: Get the current date and time
 for /f "tokens=2 delims==." %%A in ('wmic os get localdatetime /value') do set datetime=%%A
 
