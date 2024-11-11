@@ -38,7 +38,7 @@ if %attempts% GTR 2 (
 )
 
 echo Mapping Z: Drive
-net use Z: %share1% /user:%username% %password%
+net use Z: %share1% /user:%username% %password% /y
 if errorlevel 1 (
     echo Failed to map primary robot with credentials. Checking if drive Z: is already mounted...
     
@@ -55,7 +55,7 @@ if errorlevel 1 (
 )
 
 echo Mapping Y: Drive
-net use Y: %share2% /user:%username% %password%
+net use Y: %share2% /user:%username% %password% /y
 if errorlevel 1 (
     echo Failed to map secondary robot with credentials. Checking if drive Y: is already mounted...
     
