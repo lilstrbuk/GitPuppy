@@ -38,7 +38,7 @@ if %attempts% GTR 2 (
 )
 
 echo Mapping Z: Drive
-net use Z: %share1% /user:%username% %password% /y
+net use Z: %share1% /user:%username% %password%
 if errorlevel 1 (
     echo Failed to map primary robot with credentials. Checking if drive Z: is already mounted...
     
@@ -55,7 +55,7 @@ if errorlevel 1 (
 )
 
 echo Mapping Y: Drive
-net use Y: %share2% /user:%username% %password% /y
+net use Y: %share2% /user:%username% %password%
 if errorlevel 1 (
     echo Failed to map secondary robot with credentials. Checking if drive Y: is already mounted...
     
@@ -96,9 +96,9 @@ if errorlevel 0 (
 
 copy "Z:\Program\Machine Specific\cal_bases_and_tools.dat" "%sub_folder%\robo\primary\cal_bases_and_tools.dat"
 if errorlevel 0 (
-    echo cal_bases_and_tools.src copied successfully from primary controller.
+    echo cal_bases_and_tools.dat copied successfully from primary controller.
 ) else (
-    echo Failed to copy cal_bases_and_tools.src from primary controller.
+    echo Failed to copy cal_bases_and_tools.dat from primary controller.
 )
 
 :: SECONDARY Copy robo cal files from controller to destination
@@ -111,9 +111,9 @@ if errorlevel 0 (
 
 copy "Y:\Program\Machine Specific\cal_bases_and_tools.dat" "%sub_folder%\robo\secondary\cal_bases_and_tools.dat"
 if errorlevel 0 (
-    echo cal_bases_and_tools.src copied successfully from secondary controller.
+    echo cal_bases_and_tools.dat copied successfully from secondary controller.
 ) else (
-    echo Failed to copy cal_bases_and_tools.src from secondary controller.
+    echo Failed to copy cal_bases_and_tools.dat from secondary controller.
 )
 
 :: Disconnect the mapped network drives

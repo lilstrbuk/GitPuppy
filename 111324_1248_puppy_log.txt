@@ -1,0 +1,209 @@
+PowerShell 7 is already unzipped.
+Checking for PnP.PowerShell module...
+PnP.PowerShell module is installed.
+Set up passed.
+Config file exists.
+PlantName found: Souderton Processing
+SharePointSiteURL found: https://omnisharp.sharepoint.com/
+SharePointFolderPath found: KSM Backups
+Subfolder created successfully: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3
+        1 file(s) copied.
+knife_counts.olog copied successfully.
+        1 file(s) copied.
+knivesperhour.csv copied successfully.
+        1 file(s) copied.
+Grind_Everything.txt copied successfully.
+        1 file(s) copied.
+users.ouf copied successfully.
+
+
+    Directory: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        11/13/2024  12:48 PM                Config Backups                                                       
+Copied Config_Backup_11_13_2024_8_10_AM.txt successfully.
+Copied Config_Backup_11_13_2024_7_43_AM.txt successfully.
+Copied Config_Backup_11_13_2024_6_34_AM.txt successfully.
+Copied Config_Backup_11_12_2024_5_03_PM.txt successfully.
+Copied Config_Backup_11_11_2024_5_02_PM.txt successfully.
+Copied Config_Backup_11_8_2024_5_08_PM.txt successfully.
+Copied Config_Backup_11_7_2024_4_59_PM.txt successfully.
+Copied Config_Backup_11_7_2024_7_00_AM.txt successfully.
+Copied Config_Backup_11_6_2024_5_00_PM.txt successfully.
+Copied Config_Backup_11_5_2024_4_42_PM.txt successfully.
+
+
+
+
+    Directory: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        11/13/2024  12:48 PM                Fail                                                                 
+Copied 2024 10 18_10 37 41.28Primary.gcal successfully.
+Copied 2024 10 17_11 26 07.90Primary.gcal successfully.
+Copied 2024 10 01_11 55 57.53Primary.gcal successfully.
+Copied 2024 08 23_14 38 29.71Primary.gcal successfully.
+Copied 2024 08 20_08 10 41.82Primary.gcal successfully.
+Copied 2024 02 28_09 14 59.50Primary.gcal successfully.
+Copied 2024 02 23_15 03 22.95Primary.gcal successfully.
+Copied 2023 11 28_16 46 57.77Primary.gcal successfully.
+Copied 2023 09 27_14 05 42.58Primary.gcal successfully.
+Copied 2023 07 19_05 06 47.70Secondary.gcal successfully.
+
+
+
+
+    Directory: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        11/13/2024  12:48 PM                Pass                                                                 
+Copied 2024 11 13_12 44 36.69Secondary.gcal successfully.
+Copied 2024 11 13_12 44 30.08Primary.gcal successfully.
+Copied 2024 11 13_10 29 08.88Secondary.gcal successfully.
+Copied 2024 11 13_10 28 59.77Primary.gcal successfully.
+Copied 2024 11 13_08 15 51.22Primary.gcal successfully.
+Copied 2024 11 13_08 15 50.25Secondary.gcal successfully.
+Copied 2024 11 13_06 08 32.08Primary.gcal successfully.
+Copied 2024 11 13_06 08 32.07Secondary.gcal successfully.
+Copied 2024 11 12_17 04 41.29Primary.gcal successfully.
+Copied 2024 11 12_17 04 40.70Secondary.gcal successfully.
+
+
+C:\OmniSharp\DATA\NNET\Processing.nnet
+C:\OmniSharp\DATA\NNET\ProcessingOLD.nnet
+2 File(s) copied
+NNET copied successfully.
+C:\OmniSharp\DATA\Vision Templates\grScaleCamera.vascr
+C:\OmniSharp\DATA\Vision Templates\knife tray cal.png
+C:\OmniSharp\DATA\Vision Templates\knife tray center.png
+C:\OmniSharp\DATA\Vision Templates\knife tray golden.png
+C:\OmniSharp\DATA\Vision Templates\knife tray golden_old.png
+C:\OmniSharp\DATA\Vision Templates\screw.png
+6 File(s) copied
+Vision Templates copied successfully.
+Subfolder created successfully: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\robo\primary
+Subfolder created successfully: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\robo\secondary
+Folder already exists: /KSM Backups
+Folder already exists: /KSM Backups/Souderton Processing
+
+Created folder: /KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3
+[32;1mName                                [0m [32;1;3mType  [0m [32;1;3mItems/Size[0m [32;1;3mLast Modified[0m
+[32;1m----                                [0m [32;1m----  [0m [32;1m----------[0m [32;1m-------------[0m
+111324 Souderton Processing Backup 3 Folder          0 11/13/2024 5:48:47 PM
+Config Backups                       Folder          0 11/13/2024 5:48:49 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups
+Config_Backup_11_11_2024_5_02_PM.txt File        21796 11/13/2024 5:48:50 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_11_2024_5_02_PM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_11_2024_5_02_PM.txt
+Config_Backup_11_12_2024_5_03_PM.txt File        21797 11/13/2024 5:48:52 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_12_2024_5_03_PM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_12_2024_5_03_PM.txt
+Config_Backup_11_13_2024_6_34_AM.txt File        21818 11/13/2024 5:48:53 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_13_2024_6_34_AM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_13_2024_6_34_AM.txt
+Config_Backup_11_13_2024_7_43_AM.txt File        21815 11/13/2024 5:48:54 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_13_2024_7_43_AM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_13_2024_7_43_AM.txt
+Config_Backup_11_13_2024_8_10_AM.txt File        21815 11/13/2024 5:48:55 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_13_2024_8_10_AM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_13_2024_8_10_AM.txt
+Config_Backup_11_5_2024_4_42_PM.txt  File        21797 11/13/2024 5:48:56 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_5_2024_4_42_PM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_5_2024_4_42_PM.txt
+Config_Backup_11_6_2024_5_00_PM.txt  File        21797 11/13/2024 5:48:57 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_6_2024_5_00_PM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_6_2024_5_00_PM.txt
+Config_Backup_11_7_2024_4_59_PM.txt  File        21796 11/13/2024 5:48:58 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_7_2024_4_59_PM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_7_2024_4_59_PM.txt
+Config_Backup_11_7_2024_7_00_AM.txt  File        21818 11/13/2024 5:48:59 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_7_2024_7_00_AM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_7_2024_7_00_AM.txt
+Config_Backup_11_8_2024_5_08_PM.txt  File        21796 11/13/2024 5:49:00 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Config Backups\Config_Backup_11_8_2024_5_08_PM.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Config Backups/Config_Backup_11_8_2024_5_08_PM.txt
+DATA                                 Folder          0 11/13/2024 5:49:01 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA
+Gripper Cal Force Data               Folder          0 11/13/2024 5:49:02 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data
+Fail                                 Folder          0 11/13/2024 5:49:04 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail
+2023 07 19_05 06 47.70Secondary.gcal File       227479 11/13/2024 5:49:05 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2023 07 19_05 06 47.70Secondary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2023 07 19_05 06 47.70Secondary.gcal
+2023 09 27_14 05 42.58Primary.gcal   File       230875 11/13/2024 5:49:06 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2023 09 27_14 05 42.58Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2023 09 27_14 05 42.58Primary.gcal
+2023 11 28_16 46 57.77Primary.gcal   File       229966 11/13/2024 5:49:07 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2023 11 28_16 46 57.77Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2023 11 28_16 46 57.77Primary.gcal
+2024 02 23_15 03 22.95Primary.gcal   File       229464 11/13/2024 5:49:09 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 02 23_15 03 22.95Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 02 23_15 03 22.95Primary.gcal
+2024 02 28_09 14 59.50Primary.gcal   File       228889 11/13/2024 5:49:11 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 02 28_09 14 59.50Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 02 28_09 14 59.50Primary.gcal
+2024 08 20_08 10 41.82Primary.gcal   File       232326 11/13/2024 5:49:12 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 08 20_08 10 41.82Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 08 20_08 10 41.82Primary.gcal
+2024 08 23_14 38 29.71Primary.gcal   File       227757 11/13/2024 5:49:13 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 08 23_14 38 29.71Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 08 23_14 38 29.71Primary.gcal
+2024 10 01_11 55 57.53Primary.gcal   File       233018 11/13/2024 5:49:15 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 10 01_11 55 57.53Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 10 01_11 55 57.53Primary.gcal
+2024 10 17_11 26 07.90Primary.gcal   File       229814 11/13/2024 5:49:16 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 10 17_11 26 07.90Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 10 17_11 26 07.90Primary.gcal
+2024 10 18_10 37 41.28Primary.gcal   File       232007 11/13/2024 5:49:17 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Fail\2024 10 18_10 37 41.28Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Fail/2024 10 18_10 37 41.28Primary.gcal
+Pass                                 Folder          0 11/13/2024 5:49:18 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass
+2024 11 12_17 04 40.70Secondary.gcal File       225877 11/13/2024 5:49:20 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 12_17 04 40.70Secondary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 12_17 04 40.70Secondary.gcal
+2024 11 12_17 04 41.29Primary.gcal   File       230194 11/13/2024 5:49:21 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 12_17 04 41.29Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 12_17 04 41.29Primary.gcal
+2024 11 13_06 08 32.07Secondary.gcal File       228423 11/13/2024 5:49:22 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_06 08 32.07Secondary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_06 08 32.07Secondary.gcal
+2024 11 13_06 08 32.08Primary.gcal   File       232630 11/13/2024 5:49:23 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_06 08 32.08Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_06 08 32.08Primary.gcal
+2024 11 13_08 15 50.25Secondary.gcal File       228218 11/13/2024 5:49:25 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_08 15 50.25Secondary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_08 15 50.25Secondary.gcal
+2024 11 13_08 15 51.22Primary.gcal   File       228068 11/13/2024 5:49:27 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_08 15 51.22Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_08 15 51.22Primary.gcal
+2024 11 13_10 28 59.77Primary.gcal   File       228192 11/13/2024 5:49:28 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_10 28 59.77Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_10 28 59.77Primary.gcal
+2024 11 13_10 29 08.88Secondary.gcal File       228351 11/13/2024 5:49:29 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_10 29 08.88Secondary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_10 29 08.88Secondary.gcal
+2024 11 13_12 44 30.08Primary.gcal   File       232657 11/13/2024 5:49:31 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_12 44 30.08Primary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_12 44 30.08Primary.gcal
+2024 11 13_12 44 36.69Secondary.gcal File       229435 11/13/2024 5:49:32 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Gripper Cal Force Data\Pass\2024 11 13_12 44 36.69Secondary.gcal to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Gripper Cal Force Data/Pass/2024 11 13_12 44 36.69Secondary.gcal
+NNET                                 Folder          0 11/13/2024 5:49:33 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/NNET
+Processing.nnet                      File        94762 11/13/2024 5:49:34 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\NNET\Processing.nnet to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/NNET/Processing.nnet
+ProcessingOLD.nnet                   File        94762 11/13/2024 5:49:35 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\NNET\ProcessingOLD.nnet to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/NNET/ProcessingOLD.nnet
+Vision Templates                     Folder          0 11/13/2024 5:49:37 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates
+grScaleCamera.vascr                  File         8120 11/13/2024 5:49:38 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Vision Templates\grScaleCamera.vascr to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates/grScaleCamera.vascr
+knife tray cal.png                   File      3635350 11/13/2024 5:49:46 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Vision Templates\knife tray cal.png to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates/knife tray cal.png
+knife tray center.png                File      8430829 11/13/2024 5:50:01 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Vision Templates\knife tray center.png to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates/knife tray center.png
+knife tray golden_old.png            File      3740988 11/13/2024 5:50:07 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Vision Templates\knife tray golden_old.png to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates/knife tray golden_old.png
+knife tray golden.png                File      3783246 11/13/2024 5:50:14 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Vision Templates\knife tray golden.png to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates/knife tray golden.png
+screw.png                            File       502571 11/13/2024 5:50:17 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\DATA\Vision Templates\screw.png to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/DATA/Vision Templates/screw.png
+robo                                 Folder          0 11/13/2024 5:50:18 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/robo
+primary                              Folder          0 11/13/2024 5:50:19 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/robo/primary
+secondary                            Folder          0 11/13/2024 5:50:20 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/robo/secondary
+Runtime Data                         Folder          0 11/13/2024 5:50:22 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Runtime Data
+LOGS                                 Folder          0 11/13/2024 5:50:23 PM
+Created folder: KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Runtime Data/LOGS
+knife_counts.olog                    File       225713 11/13/2024 5:50:24 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Runtime Data\LOGS\knife_counts.olog to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Runtime Data/LOGS/knife_counts.olog
+knivesperhour.csv                    File       537988 11/13/2024 5:50:26 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Runtime Data\knivesperhour.csv to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Runtime Data/knivesperhour.csv
+Grind_Everything.txt                 File        21829 11/13/2024 5:50:27 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\Grind_Everything.txt to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/Grind_Everything.txt
+users.ouf                            File          316 11/13/2024 5:50:28 PM
+Uploaded file: C:\Puppy\Retrieved\111324 Souderton Processing Backup 3\users.ouf to KSM Backups/Souderton Processing/111324 Souderton Processing Backup 3/users.ouf
+All files and folders uploaded successfully.
+
+SharingIsCaring.ps1 completed successfully.
