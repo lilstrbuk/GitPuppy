@@ -1,4 +1,9 @@
 PlantName: This is my plant
 ### Don't touch below this ###
+BigDay: "WED, THU"
 SharePointSiteURL: https://omnisharp.sharepoint.com/
 SharePointFolderPath: KSM Backups
+PrimaryKRC: "\\192.168.10.18\r1"
+SecondaryKRC: "\\192.168.10.28\r1"
+KukaUser: "kukauser"
+KukaPass: "68kuka1secpw59"
